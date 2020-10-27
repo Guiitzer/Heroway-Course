@@ -1,0 +1,16 @@
+  CSS
+        box-sizing: border-box ( mantem a proporção da div )
+
+        Padrão em todas as paginas
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+    display: flex; - Utilizar no PAI
+    justify-content: center; ALINHA OS ITENS HORIZONTALMENTE
+    align-items - ALINHA OS ITENS NA VERTICAL
+    flex-direction - 
+    
+    align-items estabelece o valor align-self em todos filhos diretos como um grupo.
+    A propriedade align-self estabelece o alinhamento de um certo item dentro do bloco que o contém

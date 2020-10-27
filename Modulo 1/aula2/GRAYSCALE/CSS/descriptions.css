@@ -1,0 +1,100 @@
+.descriptions {
+    height: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(253, 253, 253);
+
+}
+.shoreline{
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0 100px 0;
+    align-items: center;
+}
+.chorelineImg{
+    background-image: url('../Images/sc-gray.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    
+}
+.barraVerde{
+    width: 5px;
+    height: 120px;
+    background-color: teal;
+    margin: 0 40px 0 0;
+
+}
+.barraVerdeDeitada{
+    width: 120px;
+    height: 5px;
+    background-color: teal;
+   
+}
+.chorelineDesc{
+    width: 250px;
+}
+
+.misty{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #161616;
+}
+
+.imgMist{
+    background-image: url('../Images/mountain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+}
+
+.descMist {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 50px;
+  
+}
+.descMist > h1 {
+   color: #F1F1F1;
+   padding-bottom: 10px;
+}
+.descMist > p {
+    color: #9c9c9cb9;
+    padding-bottom: 10px;
+ }
+ .mountains{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #161616;
+ }
+ .imgMount{
+    background-image: url('../Images/mountain2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+ }
+
+ .descMount {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px 0 50px;
+    align-items: flex-end;
+    
+  
+}
+.descMount > h1 {
+   color: #F1F1F1;
+   padding-bottom: 10px;
+}
+.descMount > p {
+    color: #9c9c9cb9;
+    padding-bottom: 10px;
+ }

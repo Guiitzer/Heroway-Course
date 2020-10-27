@@ -1,0 +1,60 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.contacts > .boxContainer{
+    width: 950px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.box {
+    width: 306px;
+    height: 180px;
+    border: solid 2px black;
+    margin: 10px 12px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+.contacts > .boxContainer > .box p{
+    color:teal ;
+}
+.contacts > .boxContainer > .box > .barraVerdeDeitada {
+    margin: 15px 0;
+    width: 63px;
+    height: 3px;
+    
+}
+.barraVerdeDeitadaFull {
+    margin: 42px 0 0 0;
+    width: 100%;
+    height: 5px;
+    background-color: teal;
+    
+    
+}
+
+
+.socialMedia{
+    color: gray;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.copy{
+    color: gray;
+    font-size: 15px;
+    margin: 20px 0 20px;
+
+}

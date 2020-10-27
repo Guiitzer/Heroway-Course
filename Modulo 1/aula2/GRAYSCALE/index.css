@@ -1,0 +1,18 @@
+@import './CSS/topo.css';
+@import './CSS/grayscale.css';
+@import './CSS/tablet.css';
+@import './CSS/descriptions.css';
+@import './CSS/email.css';
+@import './CSS/contacts.css';
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
+
+.todo {
+filter: brightness(90%);
+}

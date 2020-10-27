@@ -1,0 +1,79 @@
+.section-about {
+    position: relative;
+    background-color: #ffffff;
+    
+    
+    
+}
+.section-about > .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #000000;
+    padding: 40px 0px;
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+}
+.section-about >  h2 {
+  font-size: 35px;
+  text-align: center;
+  padding: 40px 0 0 0;
+  
+}
+.section-about > .container .texto1 {
+    width: 50%;
+    padding: 0px 5px 0 20px;
+  }
+  .section-about > .container .texto2 {
+   width: 50%;
+   padding: 0px 20px 0 5px;
+  }
+
+.middle {
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+   
+}
+.section-about > .btn > a:visited{
+     color: #2C3C50 
+    }
+ 
+.btn i{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.section-about > .container-star > .risco{
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    height: 30px;
+    align-items: center;
+    margin: 0 auto;
+    
+    
+    
+    }
+    
+.section-about > .container-star >.risco > .direito,
+.section-about > .container-star >.risco > .esquerdo {
+    width: 72px;
+    height: 3px;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    margin: 4px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+}

@@ -1,0 +1,46 @@
+.email > .container {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(../Images/email.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.email > .container > .content{
+    width: auto;
+    height: 150px;
+    padding: 30px 0 0 0;
+
+}
+.email > .container > .content > .txtDescr {
+    padding: 10px 0 20px;
+    font-size: 25px;
+}
+
+input{
+    width: 280px;
+    height: 45px;
+    padding-left: 30px;
+    border-radius: 3px;
+}
+
+.emailBtn {
+    width: 116px;
+    height: 46px;
+    background-color: #80cec8;
+    color: white;
+    border-radius: 3px;
+
+}
+
+.email > .container > .gradient {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to top, black 9%, transparent 97%);
+    margin-top: 50px;
+
+}

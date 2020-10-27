@@ -1,0 +1,51 @@
+.grayscale > .fundo {
+    background-image: url('../Images/sc-gray.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    text-align: center;
+}
+.container > p {
+    color: whitesmoke;
+    border: black;
+    -webkit-text-stroke-width: 0.5px; 
+    -webkit-text-stroke-color: #000;
+    font-size: 30px;
+}
+.title{
+    font-size: 150px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: #000;
+    font-family: 'Varela Round';
+    
+
+
+}
+
+.btn {
+    padding: 15px 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn > button {
+    width: 200px;
+    height: 70px;
+    background-color: #80cec8;
+    color: white;
+    border-radius: 10px;
+}

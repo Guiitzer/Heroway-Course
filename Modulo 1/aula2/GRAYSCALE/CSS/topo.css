@@ -1,0 +1,45 @@
+.topo {
+    display: flex;
+    background-image: url('../Images/sc-gray.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    z-index: 9;
+    
+}
+
+.topo > .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+}
+
+.container-esquerdo,
+.container-direito {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    
+}
+.container-direito{
+    justify-content: space-around;
+    padding: 10px 0 10px 0;
+    padding-right: 15%;
+    color: white;
+    background-color: transparent;
+    z-index: 9;
+    
+}
+
+.container-esquerdo{
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+    padding-left: 24%;
+    color: white;
+    background-color: transparent;
+
+    
+}
