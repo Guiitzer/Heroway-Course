@@ -1,0 +1,17 @@
+Sintaxe
+    VARIAVEIS
+        var string = "olá mundo!" || 'olá mundo';
+        var number = 10.25;
+        var boolean = true || false
+    FUNÇÕES
+        function nomeFuncao(valor){
+            console.log(`olá ${valor}`)
+        }
+    PALAVRAS RESERVADAS
+    PONTO E VIRGULA
+    ________________________________________________
+
+    Adicionar algo ao fazer quando for feito algo
+    document.addEventListener()
+
+    Arrow Function =  '() => {}'
