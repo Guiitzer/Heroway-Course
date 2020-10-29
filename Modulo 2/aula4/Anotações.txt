@@ -1,0 +1,3 @@
+isNAN() = retorna se o valor NÃO é um numero
+
+math.floor() = Remove as casas decimais.
